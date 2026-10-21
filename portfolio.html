@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио — СК «Профи» | Построенные объекты в Златоусте и Миассе</title>
+  <meta name="description" content="Реализованные объекты СК «Профи»: склады, цеха, ангары, магазины и каменные дома в Златоусте, Миассе и Челябинской области.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="index.html" aria-label="СК Профи — на главную">
+      <img class="logo__img" src="img/logo.png" alt="СК Профи">
+      <span class="logo__name">СК ПРОФИ<small>СТРОИТЕЛЬНАЯ КОМПАНИЯ · С 2009</small></span>
+    </a>
+    <nav class="nav">
+      <a href="uslugi.html">Услуги</a>
+      <a href="portfolio.html" class="active">Портфолио</a>
+      <a href="o-kompanii.html">О компании</a>
+      <a href="kontakty.html">Контакты</a>
+    </nav>
+    <a class="header__phone" href="tel:+79049440134">+7 904 944-01-34</a>
+    <a class="btn btn--primary" href="kontakty.html#zayavka">Рассчитать смету</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="uslugi.html">Услуги</a>
+  <a href="portfolio.html">Портфолио</a>
+  <a href="o-kompanii.html">О компании</a>
+  <a href="kontakty.html">Контакты</a>
+  <a class="mono" href="tel:+79049440134">+7 904 944-01-34</a>
+  <a class="mono" href="mailto:info@ckprofi.ru">info@ckprofi.ru</a>
+</div>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Главная</a><span>·</span>Портфолио</p>
+    <h1>Построенные объекты</h1>
+    <p>Склады, цеха, ангары, торговые здания и каменные дома — в Златоусте, Миассе и по всей области.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filters" id="filters">
+      <button class="filter active" data-filter="all">Все</button>
+      <button class="filter" data-filter="prom">Промышленные</button>
+      <button class="filter" data-filter="grad">Торговые и общественные</button>
+      <button class="filter" data-filter="izhs">ИЖС</button>
+    </div>
+    <div class="objs-grid" id="objectsGrid">
+      <a class="obj-card reveal" data-cat="prom" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Промышленный</span><img src="img/portfolio-1.jpg" alt="Готовый производственный корпус"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Златоуст · Промышленный объект</span>
+          <h3>Производственный корпус</h3>
+          <p>Тёплый корпус на металлокаркасе, плоская кровля из ПВХ-мембраны.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="grad" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Торговый центр</span><img src="img/portfolio-2.jpg" alt="Торговый центр"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Челябинская область · Торговое здание</span>
+          <h3>Торговый центр</h3>
+          <p>Металлокаркас, сэндвич-панели, витражное остекление, полы с топпингом.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="izhs" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Дом</span><img src="img/portfolio-3.jpg" alt="Построенный каменный дом"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Челябинская область · ИЖС</span>
+          <h3>Каменный дом</h3>
+          <p>Каменное домостроение, фасад под дерево, инженерные сети.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="prom" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Монтаж</span><img src="img/portfolio-4.jpg" alt="Монтаж металлоконструкций"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Златоуст · Промышленный объект</span>
+          <h3>Монтаж металлоконструкций</h3>
+          <p>Сборка и установка элементов каркаса промышленного здания.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="prom" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Фундамент</span><img src="img/obj-fundament.jpg" alt="Фундаментные работы"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Челябинская область · Промышленный объект</span>
+          <h3>Фундамент под корпус</h3>
+          <p>Монолитный фундамент с армированием под производственное здание.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="grad" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Реконструкция</span><img src="img/obj-fasad.jpg" alt="Реконструкция фасада здания"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Златоуст · Торговое здание</span>
+          <h3>Реконструкция фасада</h3>
+          <p>Обновление фасада торгового здания, работы на лесах.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="izhs" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">ИЖС</span><img src="img/obj-izhs-fund.jpg" alt="Ленточный фундамент дома"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Челябинская область · ИЖС</span>
+          <h3>Фундамент дома</h3>
+          <p>Ленточный фундамент под каменный дом, армирование и опалубка.</p>
+        </div>
+      </a>
+      <a class="obj-card reveal" data-cat="grad" href="obekt.html">
+        <div class="obj-card__photo"><span class="tag tag--fill">Магазин</span><img src="img/uslugi-torg.jpg" alt="Построенный магазин"></div>
+        <div class="obj-card__body">
+          <span class="obj-card__meta">Златоуст · Торговое здание</span>
+          <h3>Магазин</h3>
+          <p>Торговое здание под ключ: от фундамента до отделки фасада.</p>
+        </div>
+      </a>
+    </div>
+    <p class="note-verify">Названия, города и годы объектов уточняются у заказчика — перед публикацией сверить с реальными данными.</p>
+  </div>
+</section>
+
+<section class="tint" style="padding-top:64px;padding-bottom:64px">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="sec-label">География</p>
+      <h2>Карта объектов</h2>
+      <p class="lead">Строим в Златоусте, Миассе и по всей Челябинской области.</p>
+    </div>
+    <!-- ШАБЛОН ЯНДЕКС.КАРТЫ: заменить pt=ДОЛГОТА,ШИРОТА на координаты объекта.
+         Узнать координаты: открыть карту.yandex.ru, кликнуть точку, скопировать из URL. -->
+    <div class="map-frame reveal">
+      <iframe src="https://yandex.ru/map-widget/v1/?pt=59.658,55.171&z=14&l=map" title="Карта: Златоуст" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container">
+    <h2>Хотите такой же объект? Пришлём расчёт под вашу задачу.</h2>
+    <a class="btn" href="kontakty.html#zayavka">Рассчитать смету <span class="arr">→</span></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="img/logo.png" alt="СК Профи">
+          <span class="logo__name">СК ПРОФИ<small>СТРОИТЕЛЬНАЯ КОМПАНИЯ · С 2009</small></span>
+        </a>
+        <p class="footer__slogan">Промышленное и гражданское строительство под ключ в горнозаводской зоне Челябинской области.</p>
+      </div>
+      <div>
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="uslugi.html">Услуги</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="o-kompanii.html">О компании</a></li>
+          <li><a href="kontakty.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Направления</h4>
+        <ul>
+          <li><a href="uslugi.html#prom">Промышленные здания</a></li>
+          <li><a href="uslugi.html#grad">Торговые здания</a></li>
+          <li><a href="uslugi.html#izhs">Каменные дома</a></li>
+          <li><a href="uslugi.html#zemlya">Земляные работы</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Контакты</h4>
+        <span class="mono">Телефон</span>
+        <a href="tel:+79049440134">+7 904 944-01-34</a><br>
+        <span class="mono">Почта</span>
+        <a href="mailto:info@ckprofi.ru">info@ckprofi.ru</a><br>
+        <span class="mono">Адрес</span>
+        <span class="val">г. Златоуст, ул. Каширина, 25</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© СК «Профи», 2009–<span id="year">2026</span></span>
+      <a href="politika.html">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
