@@ -1,0 +1,6 @@
+# Перед публикацией заменить example.ru на окончательный домен сайта.
+User-agent: *
+Allow: /
+Disallow: /obekt.html
+
+Sitemap: https://example.ru/sitemap.xml

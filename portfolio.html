@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Объекты компании — ангары, цеха, склады, магазины, коттеджи | СК Профи</title>
+  <meta name="description" content="Объекты СК «Профи»: производственные цеха, склады, ангары, торговые здания и коттеджи в Златоусте, Миассе и Челябинской области. Фото построенных объектов и этапов работ.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Портфолио СК Профи — построенные объекты">
+  <meta property="og:description" content="Цеха, склады, ангары, магазины и коттеджи — Златоуст, Миасс, Челябинская область.">
+  <meta property="og:image" content="img/portfolio-1.jpg">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="index.html" aria-label="СК Профи — на главную">
+      <img class="logo__img" src="img/logo.png" alt="СК Профи — логотип">
+      <span class="logo__name">СК ПРОФИ<small>СТРОИТЕЛЬНАЯ КОМПАНИЯ · С 2009</small></span>
+    </a>
+    <nav class="nav">
+      <a href="uslugi.html">Услуги</a>
+      <a href="izhs.html">ИЖС</a>
+      <a href="portfolio.html" class="active">Портфолио</a>
+      <a href="o-kompanii.html">О компании</a>
+      <a href="kontakty.html">Контакты</a>
+    </nav>
+    <a class="header__phone" href="tel:+79000702510">+7 900 070-25-10</a>
+    <a class="btn btn--primary" href="kontakty.html#zayavka">Оставить заявку</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="uslugi.html">Услуги</a>
+  <a href="izhs.html">ИЖС</a>
+  <a href="portfolio.html">Портфолио</a>
+  <a href="o-kompanii.html">О компании</a>
+  <a href="kontakty.html">Контакты</a>
+  <a class="mono" href="tel:+79000702510">+7 900 070-25-10</a>
+  <a class="mono" href="mailto:sk.profi.zlat@gmail.com">sk.profi.zlat@gmail.com</a>
+</div>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Главная</a><span>·</span>Портфолио</p>
+    <h1>Построенные объекты</h1>
+    <p>Склады, цеха, ангары, торговые здания и коттеджи — в Златоусте, Миассе и по всей области.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filters" id="filters">
+      <button class="filter active" data-filter="all">Все</button>
+      <button class="filter" data-filter="prom">Промышленные</button>
+      <button class="filter" data-filter="grad">Торговые и офисные</button>
+      <button class="filter" data-filter="izhs">ИЖС</button>
+    </div>
+    <div class="objs-grid" id="objectsGrid">
+
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Промышленный</span><img src="img/portfolio-1.jpg" alt="Готовый производственный корпус" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Производственный корпус</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Монтаж</span><img src="img/portfolio-4.jpg" alt="Монтаж металлоконструкций промышленного здания" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Монтаж металлоконструкций</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="grad">
+        <div class="obj-card__photo"><span class="tag tag--fill">Торговый центр</span><img src="img/portfolio-2.jpg" alt="Торговый центр на металлокаркасе" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Торговое здание</span><h3>Торговый центр</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="grad">
+        <div class="obj-card__photo"><span class="tag tag--fill">Магазин</span><img src="img/portfolio-magazin.jpg" alt="Построенный магазин, летнее фото" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Торговое здание</span><h3>Магазин</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="izhs">
+        <div class="obj-card__photo"><span class="tag tag--fill">Дом</span><img src="img/portfolio-3.jpg" alt="Построенный каменный дом" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · ИЖС</span><h3>Каменный дом</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Фундамент</span><img src="img/obj-fundament.jpg" alt="Монолитный фундамент под производственное здание" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Фундамент под корпус</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="grad">
+        <div class="obj-card__photo"><span class="tag tag--fill">Реконструкция</span><img src="img/obj-fasad.jpg" alt="Реконструкция фасада торгового здания" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Торговое здание</span><h3>Реконструкция фасада</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="izhs">
+        <div class="obj-card__photo"><span class="tag tag--fill">ИЖС</span><img src="img/obj-izhs-fund.jpg" alt="Ленточный фундамент под каменный дом" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · ИЖС</span><h3>Фундамент дома</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="grad">
+        <div class="obj-card__photo"><span class="tag tag--fill">Магазин</span><img src="img/uslugi-torg.jpg" alt="Торговое здание под ключ" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Торговое здание</span><h3>Торговое здание</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Каркас</span><img src="img/obekt-2.jpg" alt="Строительство промышленного объекта" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Строительство корпуса</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Каркас</span><img src="img/obekt-3.jpg" alt="Монтаж каркаса промышленного здания" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Монтаж каркаса</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Панели</span><img src="img/obekt-4.jpg" alt="Монтаж сэндвич-панелей на промышленном объекте" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Монтаж сэндвич-панелей</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Металлокаркас</span><img src="img/uslugi-prom.jpg" alt="Промышленное здание на металлокаркасе" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Промышленное здание</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Полы</span><img src="img/uslugi-poly.jpg" alt="Внутренние работы в производственном здании" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Внутренние работы</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Земляные работы</span><img src="img/uslugi-zemlya.jpg" alt="Земляные работы экскаватором" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Земляные работы</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="grad">
+        <div class="obj-card__photo"><span class="tag tag--fill">Реконструкция</span><img src="img/uslugi-rek.jpg" alt="Реконструкция здания" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Торговое здание</span><h3>Реконструкция здания</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Каркас</span><img src="img/proc-1.jpg" alt="Сборка металлокаркаса" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Сборка каркаса</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Сварка</span><img src="img/proc-2.jpg" alt="Сварка ферм металлоконструкций" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Сварка ферм</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Панели</span><img src="img/proc-3.jpg" alt="Установка сэндвич-панелей" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Установка панелей</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Фундамент</span><img src="img/proc-4.jpg" alt="Фундаментные работы" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Фундаментные работы</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Армирование</span><img src="img/proc-5.jpg" alt="Армирование монолитной плиты" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Армирование плиты</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="izhs">
+        <div class="obj-card__photo"><span class="tag tag--fill">ИЖС</span><img src="img/proc-6.jpg" alt="Ленточный фундамент для дома" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · ИЖС</span><h3>Ленточный фундамент</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="izhs">
+        <div class="obj-card__photo"><span class="tag tag--fill">ИЖС</span><img src="img/uslugi-izhs.jpg" alt="Коттедж из газоблока" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · ИЖС</span><h3>Коттедж</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Монтаж</span><img src="img/hero.jpg" alt="Монтаж металлоконструкций автокраном зимой" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Монтаж в зимний сезон</h3></div>
+      </div>
+      <div class="obj-card reveal" data-cat="prom">
+        <div class="obj-card__photo"><span class="tag tag--fill">Монтаж</span><img src="img/about-rabota.jpg" alt="Работа манипулятора на монтаже" loading="lazy"></div>
+        <div class="obj-card__body"><span class="obj-card__meta">Челябинская область · Промышленный объект</span><h3>Работа манипулятора</h3></div>
+      </div>
+
+    </div>
+    <p class="note-verify">Подробные страницы с описанием трёх промышленных объектов появятся после согласования данных с заказчиком.</p>
+  </div>
+</section>
+
+<section class="tint" style="padding-top:64px;padding-bottom:64px">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="sec-label">География</p>
+      <h2>Где мы строим</h2>
+      <p class="lead">Строим в Златоусте, Миассе и по всей Челябинской области.</p>
+    </div>
+    <div class="map-frame reveal">
+      <iframe src="https://yandex.ru/map-widget/v1/?pt=59.658,55.171&z=12&l=map" title="Карта: Златоуст" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container">
+    <h2>Хотите такой же объект? Пришлём расчёт под вашу задачу.</h2>
+    <a class="btn" href="kontakty.html#zayavka">Оставить заявку <span class="arr">→</span></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="img/logo.png" alt="СК Профи — логотип">
+          <span class="logo__name">СК ПРОФИ<small>СТРОИТЕЛЬНАЯ КОМПАНИЯ · С 2009</small></span>
+        </a>
+        <p class="footer__slogan">Промышленное и гражданское строительство под ключ в горнозаводской зоне Челябинской области.</p>
+      </div>
+      <div>
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="uslugi.html">Услуги</a></li>
+          <li><a href="izhs.html">ИЖС</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="o-kompanii.html">О компании</a></li>
+          <li><a href="kontakty.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Направления</h4>
+        <ul>
+          <li><a href="uslugi.html#prom">Промышленные здания</a></li>
+          <li><a href="uslugi.html#grad">Торговые и офисные</a></li>
+          <li><a href="izhs.html">Коттеджи (ИЖС)</a></li>
+          <li><a href="uslugi.html#zemlya">Земляные работы</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Контакты</h4>
+        <span class="mono">Телефон</span>
+        <a href="tel:+79000702510">+7 900 070-25-10</a><br>
+        <span class="mono">Почта</span>
+        <a href="mailto:sk.profi.zlat@gmail.com">sk.profi.zlat@gmail.com</a><br>
+        <span class="mono">Адрес</span>
+        <span class="val">г. Златоуст</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© СК «Профи», 2009–<span id="year">2026</span></span>
+      <a href="politika.html">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<!-- TODO MAX: заменить href на личную ссылку профиля Жени https://max.ru/u/... -->
+<a class="max-btn" href="https://max.ru/" target="_blank" rel="noopener" aria-label="Написать в мессенджер MAX">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="maxg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3D8BFD"/><stop offset="1" stop-color="#7A5CFF"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#maxg)"/><text x="16" y="21" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="11" fill="#fff">MAX</text></svg>
+  <span>Написать в MAX</span>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
